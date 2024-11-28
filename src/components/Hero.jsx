@@ -14,16 +14,16 @@ const Hero = () => {
       >
         <div>
           <h1 className={`${styles.heroHeadText} ` }>
-            Hi, I'm <span className="text-[#000000]">KURT IVAN A. LOPEZ</span>
+<span className="text-[#000000]">SOLARNET</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-black-100`}>
           <TypeAnimation
         sequence={[
-          "I'm a Student",
+          "Let's Build Something Great Together",
           1000,
-          "I'm a Graphic Designer",
+          "Let's Innovate Together",
           1000,
-          "I'm a Fivem Game Developer",
+          "Let's Create Something Amazing",
           1000,
         ]}
         speed={50}
@@ -35,14 +35,6 @@ const Hero = () => {
       </div>
       
       <ComputersCanvas />
-
-      <div className={`absolute top-[18rem] w-full ms-16`}>
-      <div className='absolute inset-0 top-[25x] max-w-7xl mx-auto flex flex-row items-start gap-5`' >
-            <a href='https://www.facebook.com/profile.php?id=61553629247153' target='_blank' rel="norefferer">
-              <FontAwesomeIcon icon={faFacebook} className='text-[#000000] text-4xl mr-5' />
-            </a>
-          </div>
-          </div>
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
